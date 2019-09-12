@@ -1,6 +1,7 @@
 import re
 from unicodedata import normalize
 import ctypes
+import os
 def get_id (palabra):
     return ctypes.c_size_t(hash(palabra)).value
 
@@ -18,4 +19,7 @@ def Sacar_tildes (archivo):
             f.write(s)
     file.close()
     f.close()
-Sacar_tildes("Datos Proyecto - Recursos.csv")
+
+for archivo in os.listdir():
+    if archivo.split(" - ")[0]=="Datos Proyecto":
+        Sacar_tildes(archivo)
