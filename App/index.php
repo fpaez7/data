@@ -5,15 +5,13 @@
 
   <br>
 
-  <h3 align="center"> 1. Centrales Termoelectricas</h3>
-  <a href="https://www.facebook.com/">Estamos en Facebook</a>
+  <a align="center" href="consultas/consulta_1.php">1. Centrales Termoelectricas</a>
   
   <br>
   <br>
   <br>
 
-  <h3 align="center"> 2. Vertederos de la Región Metropolitana</h3>
-
+  <a align="center" href="consultas/consulta_2.php"> 2. Vertederos de la Región Metropolitana</a>
   
   <br>
   <br>
@@ -21,7 +19,7 @@
 
   <h3 align="center"> 3. Recursos asociados a minas, entre las siguientes fechas</h3>
 
-  <form align="center" action="consultas/consulta3.php" method="post">
+  <form align="center" action="consultas/consulta_3.php" method="post">
       Desde:
       <input type="text" name="Desde">
       <br/>
@@ -35,20 +33,20 @@
   <br>
   <br>
 
-  <h3 align="center">4. Regiones con algún recurso vigente</h3>
+  <a align="center" href="consultas/consulta_4.php">4. Regiones con algún recurso vigente</a>
 
   <br>
   <br>
   <br>
 
-  <h3 align="center">5. Proyectos por socio</h3>
+  <a align="center" href="consultas/consulta_5.php">5. Proyectos por socio</a>
 
   
   <br>
   <br>
   <br>
 
-  <h3 align="center">6. Proyectos en operacion y con recursos aprobados para ellos</h3>
+  <a align="center"href="consultas/consulta_6.php">6. Proyectos en operacion y con recursos aprobados para ellos</a>
 
 
   <br>
