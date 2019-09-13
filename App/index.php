@@ -6,6 +6,7 @@
   <br>
 
   <h3 align="center"> 1. Centrales Termoelectricas</h3>
+  <a href="https://www.facebook.com/">Estamos en Facebook</a>
   
   <br>
   <br>
@@ -20,7 +21,7 @@
 
   <h3 align="center"> 3. Recursos asociados a minas, entre las siguientes fechas</h3>
 
-  <form align="center" action="consultas/consulta_altura.php" method="post">
+  <form align="center" action="consultas/consulta3.php" method="post">
       Desde:
       <input type="text" name="Desde">
       <br/>
