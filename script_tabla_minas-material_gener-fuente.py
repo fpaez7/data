@@ -1,6 +1,6 @@
 import openpyxl
 
-proyectos_wb = openpyxl.load_workbook("Excel\datos_proyectos_excel.xlsx")
+proyectos_wb = openpyxl.load_workbook("Excel/datos_proyectos_excel.xlsx")
 p_ws = proyectos_wb.active
 
 # Tipos: 1 = Mina; 2 = Electrica; 3 = Vertedero
@@ -20,7 +20,7 @@ while i < p_ws.max_row:
     i += 1
 
 
-minas_wb = openpyxl.load_workbook("Tablas\minas_mineral.xlsx")
+minas_wb = openpyxl.load_workbook("Tablas/minas_mineral.xlsx")
 minas_ws = minas_wb.active
 
 minas_ws.cell(1, 1, "nombre")
@@ -33,7 +33,7 @@ while l_minas:
     minas_ws.cell(i, 2, mineral)
     i += 1
 
-gener_wb = openpyxl.load_workbook("Tablas\gener_fuente.xlsx")
+gener_wb = openpyxl.load_workbook("Tablas/gener_fuente.xlsx")
 gener_ws = gener_wb.active
 
 gener_ws.cell(1, 1, "nombre")
@@ -46,5 +46,5 @@ while l_gener:
     gener_ws.cell(i, 2, fuente)
     i += 1
 
-gener_wb.save("Tablas\gener_fuente.xlsx")
-minas_wb.save("Tablas\minas_mineral.xlsx")
+gener_wb.save("Tablas/gener_fuente.xlsx")
+minas_wb.save("Tablas/minas_mineral.xlsx")

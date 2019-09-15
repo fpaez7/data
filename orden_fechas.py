@@ -1,4 +1,4 @@
-ruta = "Tablas/Tablas nuevas/final - Recursos_cerrados.csv"
+ruta = "Tablas/Tablas nuevas/final - Proyectos.csv"
 #######################################################
 # Fijarse si el ultimo dato hay que agregar el /n o no#
 #######################################################
