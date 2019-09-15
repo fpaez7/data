@@ -7,10 +7,12 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  #Consultaaaa
+  Select *
+  FROM Recursos
+  WHERE RECURSOS.fecha_dictamen > fecha_inicio
+  AND RECURSOS.fecha_dictamen < fecha_termino
 
 ?>
 </body>
 <?php include('../templates/footer.html'); ?>
 </html>
-

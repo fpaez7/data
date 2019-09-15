@@ -2,12 +2,14 @@
 
 <body>
 <h2 align="center">Centrales Termoelectricas</h2>
-  
+
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  #Consultaaaa
+  SELECT *
+  FROM Proyectos
+  WHERE Proyectos.tipo = 2
 
   ?>
 
