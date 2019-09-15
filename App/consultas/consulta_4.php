@@ -7,7 +7,10 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  #Consultaaaa
+SELECT region
+FROM Recursos
+WHERE Recursos.status= "aprobado"
+Group BY region
 
   ?>
 
