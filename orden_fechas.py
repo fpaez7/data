@@ -1,4 +1,4 @@
-ruta = "Tablas/final - Proyectos.csv"
+ruta = "Tablas/Tablas nuevas/final - Recursos_cerrados.csv"
 #######################################################
 # Fijarse si el ultimo dato hay que agregar el /n o no#
 #######################################################
@@ -9,6 +9,7 @@ with open(ruta, "r", encoding="utf-8") as file:
         if "fecha" in i:
             header_util.append(header.index(i))
     data = list()
+    print(header_util)
     for line in file:
         l_aux = line.split(";")
         for i in header_util:
@@ -22,5 +23,5 @@ with open(ruta, "r", encoding="utf-8") as file:
 with open(ruta, "w", encoding="utf-8") as file:
     file.write(";".join(header))
     for line in data:
-        file.write(";".join(line))
+        file.write(";".join(line) + "\n")
     
