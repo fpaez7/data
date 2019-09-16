@@ -103,8 +103,8 @@ def recurso_ong():
             for ong in ongs:
                 f.write(f"{s[0]};{get_id(ong)}\n")
 
-#    if archivo.split(" - ")[0]=="Datos Proyecto":
-#        Sacar_tildes(archivo)
+if archivo.split(" - ")[0]=="Datos Proyecto":
+    Sacar_tildes("CSV/Datos Proyecto - Proyectos.csv")
 
 
 #### En Recursos manualmente cambiar "nombre" por "Recurso contra nombre"
@@ -114,7 +114,7 @@ def recurso_ong():
 #socios() #Sid;....
 #proyectos() #Pid;....
 #proyecto_socio() #Pid;Sid
-recursos() #Rid;...
+#recursos() #Rid;...
 #recurso_proyecto() #Rid;Pid
 #recurso_ong() #Rid;Oid
 ### manualmente hay que agrgar la primera linea
