@@ -2,5 +2,6 @@
 # Created by https://www.gitignore.io/api/osx,python
 
 .vscode
+.DS_Store
 
 # End of https://www.gitignore.io/api/osx,python
