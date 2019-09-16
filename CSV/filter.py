@@ -12,7 +12,7 @@ def from_id (n):
 def Sacar_tildes (archivo):
     j= archivo.split(" - ")
     f = open("st - "+j[1], "w")
-    with open(archivo) as file:
+    with open(archivo, "r", encoding="utf-8") as file:
         for line in file:
             s = line
             s = re.sub(
@@ -103,8 +103,8 @@ def recurso_ong():
             for ong in ongs:
                 f.write(f"{s[0]};{get_id(ong)}\n")
 
-if archivo.split(" - ")[0]=="Datos Proyecto":
-    Sacar_tildes("CSV/Datos Proyecto - Proyectos.csv")
+#if archivo.split(" - ")[0]=="Datos Proyecto":
+Sacar_tildes("CSV/Datos Proyecto - Proyectos.csv")
 
 
 #### En Recursos manualmente cambiar "nombre" por "Recurso contra nombre"
