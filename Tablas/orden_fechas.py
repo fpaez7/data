@@ -1,4 +1,4 @@
-ruta = "Tablas/Tablas nuevas/final - Proyectos.csv"
+ruta = "Tablas/finalfinal - Recursos.csv"
 #######################################################
 # Fijarse si el ultimo dato hay que agregar el /n o no#
 #######################################################
@@ -23,5 +23,5 @@ with open(ruta, "r", encoding="utf-8") as file:
 with open(ruta, "w", encoding="utf-8") as file:
     file.write(";".join(header))
     for line in data:
-        file.write(";".join(line) + "\n")
+        file.write(";".join(line))
     
