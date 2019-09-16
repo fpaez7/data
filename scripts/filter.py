@@ -32,6 +32,7 @@ def proyectos ():
             s = line.split(";")
             f.write(str(get_id(s[1]))+";"+ ";".join(s[0:7])+";1"+"\n")
 def minerales():
+    jota = get_id_proyecto()
     archivo = "st - sc - Proyectos.csv"
     f = open("final - minerales.csv", "w")
     with open(archivo) as file:
@@ -40,15 +41,16 @@ def minerales():
             if s[0]=="1":
                 minerales = s[8].split(",")
                 for mineral in minerales:
-                    f.write(f"{get_id(s[1])};{mineral}\n")
+                    f.write(f"{jota[s[1]]};{mineral}\n")
 def generacion():
+    jota = get_id_proyecto()
     archivo = "st - sc - Proyectos.csv"
     f = open("final - generacion.csv", "w")
     with open(archivo) as file:
         for line in file:
             s = line.split(";")
             if s[0]=="2":
-                f.write(f"{get_id(s[1])};{s[9]}\n")
+                f.write(f"{jota[s[1]]};{s[9]}\n")
 
 def proyecto_socio():
     archivo = "st - sc - Proyectos.csv"
@@ -104,7 +106,7 @@ def recurso_ong():
                 f.write(f"{s[0]};{get_id(ong)}\n")
 
 #if archivo.split(" - ")[0]=="Datos Proyecto":
-Sacar_tildes("CSV/Datos Proyecto - Proyectos.csv")
+#Sacar_tildes("CSV/Datos Proyecto - Proyectos.csv")
 
 
 #### En Recursos manualmente cambiar "nombre" por "Recurso contra nombre"
@@ -118,5 +120,5 @@ Sacar_tildes("CSV/Datos Proyecto - Proyectos.csv")
 #recurso_proyecto() #Rid;Pid
 #recurso_ong() #Rid;Oid
 ### manualmente hay que agrgar la primera linea
-#minerales() # Pid;mineal
-#generacion()# Pid;generacion
+minerales() # Pid;mineal
+generacion()# Pid;generacion
