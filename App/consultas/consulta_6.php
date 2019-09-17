@@ -5,11 +5,12 @@
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
-  SELECT Proyectos.name
+  $query = " SELECT Proyectos.name
   FROM Proyectos, recurso_proyecto, Recursos
-  WHERE Recursos.status = "aprobado"
+  WHERE Recursos.status = 'aprovado'
   AND Proyectos.Pid = recurso_proyecto.Pid
-  AND RECURSOS.Rid = recurso_proyecto.Rid
+  AND RECURSOS.Rid = recurso_proyecto.Rid;"
+
   ?>
 
 <?php include('../templates/footer.html'); ?>
