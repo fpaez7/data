@@ -6,10 +6,12 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  Select *
-  From Proyectos
-  WHERE Proyectos.tipo = 3
-  AND Proyectos.region = "Metropolitana de Santiago"
+  $query = "SELECT pid, tipo, nombre, proyectos.latitud, proyectos.longitud, fecha_apertura
+  FROM proyectos, region_comuna 
+  WHERE proyectos.longitud = region_comuna.longitud AND
+  proyectos.latitud = region_comuna.latitud AND
+  region_comuna.region = 'Metropolitana de Santiago' AND
+  proyectos.tipo = 3"
 
   ?>
 
