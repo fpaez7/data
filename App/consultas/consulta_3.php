@@ -1,39 +1,47 @@
 <?php include('../templates/header.html');   ?>
 
 <body>
-  <h2 align="center">Recursos asocioados a minas, entre "fecha_inicio" y "fecha_termino"</h2>
+<h2 align="center">Recursos asocioados a minas, entre "fecha_inicio" y "fecha_termino”</h2>
 
 <?php
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+
   require("../config/conexion.php");
   $desde = $_POST["Desde"];
-  $desde = intval($desde);
+  $hasta = $_POST["Hasta"];
 
-  $hasta= $_POST["Hasta"];
-  $hasta = intval($hasta);
+  $query = "SELECT recursos.rid , proyectos.nombre, recursos.causa,recursos.fecha_apertura
+          FROM recursos, recurso_proyecto , proyectos
+          WHERE recurso_proyecto.rid = Recursos.rid
+          AND  recurso_proyecto.pid = proyectos.pid
+         AND proyectos.tipo = 1
+         AND recursos.fecha_apertura > '$desde'
+         AND recursos.fecha_apertura < '$hasta'
+         ORDER BY recursos.fecha_apertura";
 
-  $query = "SELECT * FROM recursos"
+  $result = $db -> prepare($query);
+  $result -> execute();
+  $vertederos = $result -> fetchAll();
+  ?>
 
-?>
-$result = $db -> prepare($query);
-$result -> execute();
-$pokemones = $result -> fetchAll();
-?>
+  <p>fecha_inicio:<?php echo $desde ?></p>
+  <p>fecha_termino:<?php echo $hasta ?></p>
+  <table align="center">
+    <tr>
+      <th>RID</th>
+      <th>Nombre del proyecto</th>
+      <th>Causa del recurso</th>
+      <th>fecha apertura del recurso</th>
+    </tr>
 
-<table>
-  <tr>
-    <th>ID</th>
-    <th>Nombre</th>
-    <th>Altura</th>
-  </tr>
+      <?php
+        foreach ($vertederos as $p) {
+          echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td>
+          <td>$p[3]";
+      }
+      ?>
 
-    <?php
-      foreach ($pokemones as $p) {
-        echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td></tr>";
-    }
-    ?>
+  </table>
 
-</table>
 
 <?php include('../templates/footer.html'); ?>
-</html>
