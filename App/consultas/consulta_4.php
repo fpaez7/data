@@ -7,15 +7,14 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  $query = "SELECT region_comuna.region FROM region_comuna, proyectos
-  WHERE proyectos.operativo = 1 AND
-  proyectos.latitud = region_comuna.latitud AND
-  proyectos.longitud = region_comuna.longitud
-  GROUP BY region_comuna.region";
+  $query = "SELECT region FROM region_comuna, proyectos, recurso_proyecto WHERE
+  region_comuna.latitud = proyectos.latitud AND region_comuna.longitud = proyectos.longitud AND
+  proyectos.pid = recurso_proyecto.pid AND
+  recurso_proyecto.rid NOT IN (SELECT rid FROM recursos_vencidos) GROUP BY region";
 
   $result = $db -> prepare($query);
   $result -> execute();
-  $vertederos = $result -> fetchAll();
+  $regiones = $result -> fetchAll();
   ?>
 
   <table align="center">
@@ -24,8 +23,8 @@
     </tr>
 
       <?php
-        foreach ($vertederos as $v) {
-          echo "<tr><td>$v[0]</td></tr>";
+        foreach ($regiones as $r) {
+          echo "<tr><td>$r[0]</td></tr>";
       }
       ?>
       
