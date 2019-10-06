@@ -1,0 +1,451 @@
+latitud;longitud;region;comuna
+-40.61124533;-71.9763994;Metropolitana de Santiago;Padre Hurtado
+-38.3712225;-72.54586882;VII del Maule;Curanilahue
+-46.57220413;-70.5754899;II de Antofagasta;Calama
+-19.48757504;-73.46582409;XI de Aysen del General Carlos Ibanez del Campo;Chile Chico
+-45.98246139;-71.80516601;III de Atacama;Huasco
+-53.79350998;-69.22893626;II de Antofagasta;Antofagasta
+-46.1348098;-73.54064138;V de Valparaiso;Valparaiso
+-50.93885489;-71.78372396;IV de Coquimbo;La Higuera
+-51.48257045;-69.73756147;II de Antofagasta;Ollague
+-38.22877545;-74.53154567;XIV de Los Rios;Rio Bueno
+-46.84178722;-72.6409599;IV de Coquimbo;La Serena
+-17.08866568;-70.75499991;III de Atacama;Vallenar
+-44.52950651;-74.49207624;XII de Magallanes y de la Antartica Chilena;Punta Arenas
+-37.93703952;-73.48497148;VII del Maule;Curanilahue
+-41.85811607;-72.68224325;IV de Coquimbo;Monte Patria
+-30.33028141;-74.2415504;Metropolitana de Santiago;Isla de Maipo
+-44.82845024;-69.71109939;II de Antofagasta;Maria Elena
+-42.09990962;-69.28519278;II de Antofagasta;Antofagasta
+-34.8282871;-69.65815707;II de Antofagasta;Taltal
+-31.55130785;-68.11280481;I de Tarapaca;Huara
+-18.30750076;-68.71016001;II de Antofagasta;Tocopilla
+-46.6250247;-71.20320602;II de Antofagasta;Calama
+-53.36045872;-71.65370501;III de Atacama;Copiapo
+-42.74645755;-71.60494713;II de Antofagasta;Tocopilla
+-21.93420356;-71.74937316;V de Valparaiso;Quilpue
+-24.4253265;-71.77113902;III de Atacama;Vallenar
+-31.96469031;-69.29279809;I de Tarapaca;Huara
+-37.70085343;-73.56228633;V de Valparaiso;Concon
+-46.2616331;-71.64164013;III de Atacama;Huasco
+-51.796099;-72.47764133;IV de Coquimbo;La Higuera
+-27.10631744;-70.2652307;III de Atacama;Diego de Almagro
+-17.44733374;-70.47032369;III de Atacama;Huasco
+-32.66658139;-73.34546353;IV de Coquimbo;Rio Hurtado
+-27.48280116;-70.56344947;II de Antofagasta;Mejillones
+-30.37095291;-69.93180455;II de Antofagasta;Ollague
+-45.29357894;-69.17026643;II de Antofagasta;Maria Elena
+-49.82821022;-74.30242654;XII de Magallanes y de la Antartica Chilena;Primavera
+-31.50027707;-69.55187546;II de Antofagasta;Calama
+-38.8201632;-70.50291327;IV de Coquimbo;Salamanca
+-17.69804781;-70.47765396;III de Atacama;Vallenar
+-25.45210144;-74.98904326;VII del Maule;Los Alamos
+-37.4788188;-71.47867599;III de Atacama;Caldera
+-38.13105043;-72.83364805;XII de Magallanes y de la Antartica Chilena;Cabo de Hornos
+-23.08275252;-69.42137751;I de Tarapaca;Iquique
+-16.07171874;-71.26601916;II de Antofagasta;Taltal
+-40.07139215;-70.8392399;II de Antofagasta;San Pedro de Atacama
+-38.87962997;-71.56971803;III de Atacama;Diego de Almagro
+-30.82234614;-68.38792591;I de Tarapaca;Huara
+-24.39457601;-72.24669649;XIV de Los Rios;Panguipulli
+-46.38747254;-70.75437214;I de Tarapaca;Camina
+-50.96642298;-70.49199065;III de Atacama;Tierra Amarilla
+-27.59189821;-71.20349032;III de Atacama;Diego de Almagro
+-28.39381633;-73.986472;XII de Magallanes y de la Antartica Chilena;San Gregorio
+-43.64479261;-73.81374064;IV de Coquimbo;Ovalle
+-19.95010196;-73.64662812;Metropolitana de Santiago;Maria Pinto
+-24.2080116;-68.50685053;I de Tarapaca;Pica
+-18.63187163;-72.91612967;VIII del Bio-Bio;Santa Barbara
+-29.11125862;-71.23158585;II de Antofagasta;Maria Elena
+-29.59632621;-73.03948187;VIII del Bio-Bio;Yumbel
+-47.14991504;-71.68093803;IV de Coquimbo;Combarbala
+-35.29287156;-71.086893;II de Antofagasta;Antofagasta
+-31.26504384;-68.84962811;II de Antofagasta;Taltal
+-51.24200404;-70.28150702;I de Tarapaca;Colchane
+-52.14362392;-72.16782523;IV de Coquimbo;Andacollo
+-42.64166805;-69.65466815;II de Antofagasta;San Pedro de Atacama
+-17.15562623;-72.95433214;XII de Magallanes y de la Antartica Chilena;Porvenir
+-53.43772961;-72.02622649;III de Atacama;Freirina
+-23.69506956;-69.47807235;I de Tarapaca;Iquique
+-23.56366992;-72.74754506;V de Valparaiso;Juan Fernandez
+-51.05668234;-69.94491088;I de Tarapaca;Colchane
+-27.46471657;-71.45300923;II de Antofagasta;Mejillones
+-29.99809319;-73.58981351;V de Valparaiso;Quintero
+-42.71445035;-70.47732534;II de Antofagasta;Mejillones
+-37.56572452;-72.73158473;III de Atacama;Caldera
+-30.31364111;-73.4247602;Metropolitana de Santiago;Isla de Maipo
+-21.53551614;-72.07976852;V de Valparaiso;Quilpue
+-17.99072303;-73.16470936;Metropolitana de Santiago;Talagante
+-33.13604943;-69.34122626;I de Tarapaca;Huara
+-37.35857076;-71.31032115;III de Atacama;Caldera
+-48.17720516;-73.38634755;Metropolitana de Santiago;El Monte
+-47.31394603;-71.23903468;II de Antofagasta;Sierra Gorda
+-47.18797047;-73.54860045;VII del Maule;Contulmo
+-19.29980419;-70.51275141;III de Atacama;Chanaral
+-38.70897824;-69.63632309;III de Atacama;Caldera
+-30.07242537;-71.8258599;III de Atacama;Alto del Carmen
+-23.89837221;-68.22308586;I de Tarapaca;Pica
+-42.76191411;-71.15455864;II de Antofagasta;Antofagasta
+-22.69430514;-71.58466488;V de Valparaiso;Quilpue
+-51.31250495;-72.09715256;III de Atacama;Copiapo
+-19.85382799;-74.1091388;XII de Magallanes y de la Antartica Chilena;Natales
+-30.42536025;-70.20419998;II de Antofagasta;Maria Elena
+-29.20278204;-73.96821118;VIII del Bio-Bio;Yumbel
+-49.85799239;-72.76516535;XII de Magallanes y de la Antartica Chilena;Laguna Blanca
+-23.34368456;-71.94105884;IV de Coquimbo;Punitaqui
+-24.11799631;-69.35044973;I de Tarapaca;Iquique
+-47.36444382;-73.38158073;VII del Maule;Canete
+-41.28151908;-72.89936633;Metropolitana de Santiago;Padre Hurtado
+-23.96324697;-68.69023905;I de Tarapaca;Iquique
+-29.63681473;-69.07867499;II de Antofagasta;Taltal
+-32.76774456;-72.94945547;IV de Coquimbo;Los Vilos
+-47.20950153;-70.76035423;II de Antofagasta;Maria Elena
+-54.87199607;-70.54691361;II de Antofagasta;Taltal
+-43.11047715;-70.03352768;I de Tarapaca;Pica
+-32.31321107;-69.75707645;II de Antofagasta;Calama
+-38.73928048;-69.3541644;XV de Arica y Parinacota;Arica
+-43.76417517;-69.46927861;I de Tarapaca;Pica
+-33.00192116;-73.80536773;IV de Coquimbo;Los Vilos
+-30.49406062;-70.09795413;II de Antofagasta;Taltal
+-46.67054079;-72.97304111;VII del Maule;Contulmo
+-39.14820194;-72.40334635;IV de Coquimbo;Paiguano
+-41.59030839;-69.17650406;II de Antofagasta;Antofagasta
+-46.43036646;-71.41331194;II de Antofagasta;Calama
+-46.58411776;-73.65920956;VII del Maule;Canete
+-41.73703364;-71.12153259;II de Antofagasta;Mejillones
+-45.37989704;-69.54898275;XV de Arica y Parinacota;Camarones
+-31.38911698;-69.24544403;II de Antofagasta;Taltal
+-22.33954425;-71.6613863;III de Atacama;Huasco
+-34.44832831;-73.48296944;XII de Magallanes y de la Antartica Chilena;Timaukel
+-25.22791263;-71.84278768;VI del Libertador General Bernardo O'Higgins;Codegua
+-45.77912208;-70.46570244;XV de Arica y Parinacota;Camarones
+-24.78193519;-69.05397424;I de Tarapaca;Pica
+-23.3210794;-69.03344193;I de Tarapaca;Pica
+-42.32243113;-71.80459968;IV de Coquimbo;Monte Patria
+-53.10318907;-70.05907216;II de Antofagasta;Antofagasta
+-47.65017997;-69.83986866;I de Tarapaca;Colchane
+-54.88657627;-69.5041496;I de Tarapaca;Alto Hospicio
+-42.82090275;-69.76150537;II de Antofagasta;San Pedro de Atacama
+-45.07676689;-71.8082965;III de Atacama;Diego de Almagro
+-23.13717068;-69.95653874;II de Antofagasta;Antofagasta
+-42.8435721;-71.19728748;II de Antofagasta;Mejillones
+-28.2179559;-71.50560249;II de Antofagasta;Mejillones
+-47.85400498;-71.1090181;II de Antofagasta;Sierra Gorda
+-48.88509748;-69.13073419;I de Tarapaca;Camina
+-49.69909901;-72.85156322;Metropolitana de Santiago;San Pedro
+-24.66738408;-73.18711546;V de Valparaiso;Villa Alemana
+-18.4703499;-68.72721423;II de Antofagasta;Tocopilla
+-34.24063231;-72.60813666;IV de Coquimbo;Coquimbo
+-27.31596891;-70.96487997;III de Atacama;Diego de Almagro
+-49.53720632;-72.44283924;Metropolitana de Santiago;San Pedro
+-50.41748466;-71.36958532;III de Atacama;Alto del Carmen
+-28.8698376;-74.6328144;VIII del Bio-Bio;Yumbel
+-18.13731948;-73.45570689;VIII del Bio-Bio;Santa Barbara
+-46.1401754;-70.39165648;II de Antofagasta;Ollague
+-37.96750025;-69.52267617;XV de Arica y Parinacota;Arica
+-24.66135957;-71.79570962;III de Atacama;Vallenar
+-45.70169924;-72.52887097;III de Atacama;Diego de Almagro
+-32.02967643;-72.26932097;III de Atacama;Tierra Amarilla
+-34.62424827;-70.77212716;II de Antofagasta;Maria Elena
+-53.0118099;-70.74491312;II de Antofagasta;Ollague
+-26.95566592;-70.62948214;III de Atacama;Copiapo
+-34.06870467;-69.2587778;II de Antofagasta;Sierra Gorda
+-41.36405867;-72.88275487;Metropolitana de Santiago;Padre Hurtado
+-17.05555729;-71.25546485;II de Antofagasta;Taltal
+-23.74250416;-72.5780991;III de Atacama;Vallenar
+-41.80840469;-70.92042281;III de Atacama;Alto del Carmen
+-47.20766107;-69.38848421;I de Tarapaca;Colchane
+-20.8146013;-73.43119955;XII de Magallanes y de la Antartica Chilena;Natales
+-43.90538222;-67.93186104;I de Tarapaca;Alto Hospicio
+-45.04730088;-68.6226631;XV de Arica y Parinacota;General Lagos
+-31.31565918;-70.12268731;II de Antofagasta;Calama
+-31.03868479;-69.42270489;II de Antofagasta;Ollague
+-34.8080603;-69.73821998;II de Antofagasta;Sierra Gorda
+-22.41636966;-72.69038964;III de Atacama;Huasco
+-35.14139984;-72.35758798;IV de Coquimbo;Illapel
+-46.48103337;-70.46400352;II de Antofagasta;Calama
+-24.54405253;-72.11803136;Metropolitana de Santiago;Curacavi
+-17.88031716;-70.02811716;I de Tarapaca;Pozo Almonte
+-48.80221815;-72.95778926;VIII del Bio-Bio;Alto Biobio
+-38.82480482;-71.58608915;III de Atacama;Diego de Almagro
+-46.71477133;-71.79620512;II de Antofagasta;Ollague
+-23.66594089;-68.43100801;I de Tarapaca;Iquique
+-40.35185122;-72.80959953;V de Valparaiso;Casablanca
+-47.12542695;-72.06503108;II de Antofagasta;Sierra Gorda
+-37.14424689;-72.54907999;XII de Magallanes y de la Antartica Chilena;Cabo de Hornos
+-27.35831322;-72.08958712;III de Atacama;Chanaral
+-34.53425139;-74.13740142;XII de Magallanes y de la Antartica Chilena;Timaukel
+-43.18864931;-70.99239316;I de Tarapaca;Pica
+-30.53557678;-71.02260317;III de Atacama;Alto del Carmen
+-46.56347763;-68.72332298;XV de Arica y Parinacota;General Lagos
+-45.38971199;-69.86726192;II de Antofagasta;Mejillones
+-31.16445081;-68.37160087;I de Tarapaca;Huara
+-26.74654065;-70.42299346;III de Atacama;Chanaral
+-32.94742502;-73.76307958;VI del Libertador General Bernardo O'Higgins;Rancagua
+-50.09388595;-68.48847426;I de Tarapaca;Pozo Almonte
+-53.65404297;-73.26718516;VIII del Bio-Bio;Tucapel
+-51.33607506;-71.89800211;IV de Coquimbo;La Higuera
+-53.8656465;-72.79450762;VIII del Bio-Bio;Tucapel
+-43.90888808;-74.4424349;VIII del Bio-Bio;San Rosendo
+-24.07761632;-73.52356648;V de Valparaiso;Juan Fernandez
+-51.29783946;-71.50237003;III de Atacama;Freirina
+-50.43770014;-73.62178091;Metropolitana de Santiago;Alhue
+-21.72358876;-73.86217581;XI de Aysen del General Carlos Ibanez del Campo;Rio Ibanez
+-46.95808708;-71.09731439;II de Antofagasta;Maria Elena
+-24.92641372;-72.63476081;XII de Magallanes y de la Antartica Chilena;Rio Verde
+-41.90476211;-71.40707744;II de Antofagasta;Tocopilla
+-49.12840071;-69.06715874;II de Antofagasta;Mejillones
+-51.84366508;-71.45974926;III de Atacama;Copiapo
+-40.25595432;-71.1296847;II de Antofagasta;San Pedro de Atacama
+-18.96674942;-72.66627876;XI de Aysen del General Carlos Ibanez del Campo;Chile Chico
+-29.02393516;-73.58812257;V de Valparaiso;Quintero
+-36.83268638;-71.12683534;II de Antofagasta;Sierra Gorda
+-45.93308769;-70.27512236;XV de Arica y Parinacota;Putre
+-48.7080749;-69.02837929;I de Tarapaca;Camina
+-26.85917867;-71.27095578;III de Atacama;Chanaral
+-50.73155899;-71.52095482;III de Atacama;Copiapo
+-18.89524832;-73.6547943;XI de Aysen del General Carlos Ibanez del Campo;Chile Chico
+-26.50692326;-69.23982757;III de Atacama;Copiapo
+-22.75120305;-73.71128663;XI de Aysen del General Carlos Ibanez del Campo;Rio Ibanez
+-18.6558614;-70.75718455;II de Antofagasta;Calama
+-50.34084038;-69.96995666;II de Antofagasta;Ollague
+-54.05804052;-72.16371161;III de Atacama;Copiapo
+-24.55756186;-74.09087615;VII del Maule;Los Alamos
+-18.25662271;-69.48914967;I de Tarapaca;Pozo Almonte
+-29.8906932;-72.36810449;III de Atacama;Chanaral
+-37.23816728;-74.43611003;XIV de Los Rios;Rio Bueno
+-42.58984705;-71.93645833;VII del Maule;Tirua
+-36.43390516;-69.29986234;II de Antofagasta;Calama
+-45.75448464;-70.64443925;XV de Arica y Parinacota;Putre
+-41.18509248;-70.8563711;III de Atacama;Alto del Carmen
+-28.16579053;-74.53948987;XII de Magallanes y de la Antartica Chilena;San Gregorio
+-34.82987584;-72.10349722;IV de Coquimbo;Coquimbo
+-46.7411032;-70.00575467;I de Tarapaca;Camina
+-52.81944746;-70.19279546;II de Antofagasta;Antofagasta
+-23.32492091;-68.26543116;I de Tarapaca;Iquique
+-20.46904993;-74.09165819;Metropolitana de Santiago;Maria Pinto
+-44.6798846;-68.82300689;I de Tarapaca;Alto Hospicio
+-42.73855109;-70.85971668;II de Antofagasta;Tocopilla
+-31.74765126;-73.25186772;IV de Coquimbo;Rio Hurtado
+-46.42174025;-74.18435217;VII del Maule;Canete
+-45.78367424;-75.38032149;XII de Magallanes y de la Antartica Chilena;Antartica
+-55.54343624;-69.83053791;I de Tarapaca;Alto Hospicio
+-48.08224171;-73.04903485;VII del Maule;Contulmo
+-40.87226832;-72.21115048;IV de Coquimbo;Monte Patria
+-29.97956124;-71.96526653;III de Atacama;Alto del Carmen
+-24.59414909;-72.68571232;V de Valparaiso;Juan Fernandez
+-52.80292319;-69.87682299;II de Antofagasta;Ollague
+-43.21815285;-73.07526943;IV de Coquimbo;Ovalle
+-45.39717876;-73.82516204;VIII del Bio-Bio;San Rosendo
+-43.73148185;-69.37467027;I de Tarapaca;Alto Hospicio
+-39.31051311;-70.78321928;II de Antofagasta;San Pedro de Atacama
+-45.02954045;-68.47397968;XV de Arica y Parinacota;General Lagos
+-46.76871429;-73.4125935;V de Valparaiso;Valparaiso
+-29.09239262;-74.52918534;XII de Magallanes y de la Antartica Chilena;San Gregorio
+-53.47278162;-73.54103596;V de Valparaiso;Puchuncavi
+-35.37694761;-71.53827676;IV de Coquimbo;Illapel
+-45.56787716;-67.74744981;XV de Arica y Parinacota;General Lagos
+-23.57398446;-72.00715791;Metropolitana de Santiago;Curacavi
+-22.41457701;-69.34907021;II de Antofagasta;Antofagasta
+-49.40819843;-73.44452398;XII de Magallanes y de la Antartica Chilena;Primavera
+-54.06178027;-70.36594979;II de Antofagasta;Taltal
+-54.16098596;-73.44295806;IV de Coquimbo;Vicuna
+-39.17132517;-72.07184672;III de Atacama;Diego de Almagro
+-45.841688;-74.24113967;V de Valparaiso;Valparaiso
+-30.49560682;-73.22249931;III de Atacama;Chanaral
+-18.47051602;-70.13306378;III de Atacama;Chanaral
+-33.39907535;-73.6965027;VI del Libertador General Bernardo O'Higgins;Rancagua
+-22.6316032;-69.88975164;II de Antofagasta;Sierra Gorda
+-30.41079413;-72.28140068;III de Atacama;Chanaral
+-44.15489593;-73.61271333;IV de Coquimbo;Ovalle
+-37.20283556;-73.69478663;V de Valparaiso;Concon
+-31.16089173;-70.89554656;III de Atacama;Tierra Amarilla
+-54.10836128;-72.54131209;IV de Coquimbo;Vicuna
+-39.40655928;-73.12322375;IV de Coquimbo;Canela
+-30.63543452;-68.32490076;II de Antofagasta;Taltal
+-33.29786746;-72.0236178;II de Antofagasta;Sierra Gorda
+-47.48083996;-69.78816034;I de Tarapaca;Camina
+-32.10812979;-74.10672937;VI del Libertador General Bernardo O'Higgins;Rancagua
+-45.49644381;-76.14144442;XII de Magallanes y de la Antartica Chilena;Antartica
+-29.72839455;-71.02219486;II de Antofagasta;Maria Elena
+-46.75384618;-71.52360501;IV de Coquimbo;Combarbala
+-45.53392116;-74.80555265;XII de Magallanes y de la Antartica Chilena;Antartica
+-24.7683369;-71.8845958;VI del Libertador General Bernardo O'Higgins;Codegua
+-45.17052541;-69.98027157;XV de Arica y Parinacota;Putre
+-41.82457563;-70.04926654;III de Atacama;Alto del Carmen
+-47.59593324;-72.36669104;III de Atacama;Vallenar
+-38.11993762;-70.60047994;II de Antofagasta;Sierra Gorda
+-50.89317516;-69.80606347;I de Tarapaca;Colchane
+-38.54033002;-71.39594038;IV de Coquimbo;Salamanca
+-51.64844751;-70.30809486;II de Antofagasta;Ollague
+-22.83237098;-72.19113554;IV de Coquimbo;Punitaqui
+-29.29631515;-73.79609293;V de Valparaiso;Quintero
+-46.75649659;-69.6195718;II de Antofagasta;Mejillones
+-45.84541746;-72.50348538;III de Atacama;Huasco
+-20.51543241;-74.21582041;XII de Magallanes y de la Antartica Chilena;Natales
+-51.06075258;-74.25340939;Metropolitana de Santiago;Alhue
+-33.44505908;-72.21041226;II de Antofagasta;Antofagasta
+-43.10144946;-72.68829782;VII del Maule;Tirua
+-37.66461088;-70.62854518;II de Antofagasta;Sierra Gorda
+-23.78497286;-71.87950768;Metropolitana de Santiago;Curacavi
+-23.97880405;-73.25941333;XII de Magallanes y de la Antartica Chilena;Rio Verde
+-42.57570453;-69.51443977;II de Antofagasta;Antofagasta
+-34.30260501;-72.07558777;II de Antofagasta;Antofagasta
+-23.61028685;-72.34481198;XIV de Los Rios;Panguipulli
+-51.13728473;-73.03610548;XII de Magallanes y de la Antartica Chilena;Laguna Blanca
+-22.65293536;-70.66180792;II de Antofagasta;Sierra Gorda
+-30.58149323;-68.53531036;I de Tarapaca;Huara
+-17.96384615;-73.33109039;VIII del Bio-Bio;Santa Barbara
+-38.90344507;-68.46931075;XV de Arica y Parinacota;Arica
+-46.26421645;-72.1887842;IV de Coquimbo;La Serena
+-19.05572733;-70.1235245;I de Tarapaca;Pozo Almonte
+-43.92126064;-70.25055601;I de Tarapaca;Pica
+-52.58694562;-69.53267975;II de Antofagasta;Ollague
+-32.14490051;-70.02574064;III de Atacama;Tierra Amarilla
+-42.30241952;-72.4703344;VII del Maule;Tirua
+-29.7891032;-68.88677317;II de Antofagasta;San Pedro de Atacama
+-37.1680669;-71.99358865;III de Atacama;Caldera
+-46.02318735;-72.31154556;IV de Coquimbo;La Serena
+-50.31195952;-70.41277162;II de Antofagasta;Ollague
+-45.4454804;-69.66660029;XV de Arica y Parinacota;Putre
+-17.04318272;-74.71887529;XII de Magallanes y de la Antartica Chilena;Porvenir
+-55.47742963;-70.28823355;I de Tarapaca;Alto Hospicio
+-19.52616206;-69.96478385;II de Antofagasta;Calama
+-50.83989176;-73.62680698;Metropolitana de Santiago;Alhue
+-23.98766982;-72.31728235;II de Antofagasta;Tocopilla
+-25.74654418;-72.32445062;VI del Libertador General Bernardo O'Higgins;Codegua
+-53.92453577;-71.07589986;II de Antofagasta;Taltal
+-46.89029091;-70.91828549;IV de Coquimbo;Combarbala
+-31.24773185;-73.37599763;Metropolitana de Santiago;Isla de Maipo
+-22.4076122;-69.04604462;I de Tarapaca;Iquique
+-38.89603639;-72.87012397;IV de Coquimbo;Paiguano
+-22.71390651;-70.05634205;II de Antofagasta;Sierra Gorda
+-46.94661338;-72.1569849;III de Atacama;Vallenar
+-45.46401685;-70.92528827;I de Tarapaca;Camina
+-21.94825924;-74.05111571;XI de Aysen del General Carlos Ibanez del Campo;Rio Ibanez
+-46.91888967;-68.86531922;I de Tarapaca;Colchane
+-47.84204942;-69.03536409;I de Tarapaca;Colchane
+-49.36704952;-69.43572153;II de Antofagasta;Mejillones
+-40.15613517;-73.48525548;V de Valparaiso;Casablanca
+-20.63235417;-73.30770741;Metropolitana de Santiago;Maria Pinto
+-44.60997938;-74.8371451;XII de Magallanes y de la Antartica Chilena;Punta Arenas
+-50.71227996;-71.28340564;III de Atacama;Freirina
+-33.60469188;-74.0102517;IV de Coquimbo;Los Vilos
+-25.24011737;-72.81762993;XIV de Los Rios;Panguipulli
+-45.38138189;-70.64325644;II de Antofagasta;Maria Elena
+-32.29399007;-69.03379064;I de Tarapaca;Huara
+-46.27776541;-69.97186244;II de Antofagasta;Mejillones
+-35.48098221;-71.1905625;IV de Coquimbo;Coquimbo
+-26.0446954;-74.04301221;VII del Maule;Los Alamos
+-23.51683606;-72.25654139;IV de Coquimbo;Punitaqui
+-15.80399679;-70.97515952;II de Antofagasta;Taltal
+-47.66448994;-73.42405483;VIII del Bio-Bio;Alto Biobio
+-45.98702795;-71.43452191;II de Antofagasta;Calama
+-38.30897238;-71.8913141;III de Atacama;Caldera
+-23.06057125;-71.79959903;III de Atacama;Huasco
+-48.87088641;-69.69011616;II de Antofagasta;Mejillones
+-17.40821544;-73.88095802;Metropolitana de Santiago;Talagante
+-33.73365319;-70.20110685;II de Antofagasta;Taltal
+-21.55807674;-68.4005989;II de Antofagasta;Antofagasta
+-26.16436623;-70.02406051;III de Atacama;Copiapo
+-39.39264851;-70.93554426;II de Antofagasta;San Pedro de Atacama
+-34.33874333;-70.15395928;II de Antofagasta;Taltal
+-53.41162037;-69.57491598;II de Antofagasta;Tocopilla
+-38.66487599;-73.03103802;IV de Coquimbo;Paiguano
+-45.02246855;-75.49329275;XII de Magallanes y de la Antartica Chilena;Punta Arenas
+-36.51659763;-73.05176744;XII de Magallanes y de la Antartica Chilena;Cabo de Hornos
+-32.15450946;-71.67009816;III de Atacama;Tierra Amarilla
+-49.80974272;-73.15258443;XII de Magallanes y de la Antartica Chilena;Primavera
+-18.20712344;-70.24368891;III de Atacama;Huasco
+-18.95193054;-70.32171306;III de Atacama;Chanaral
+-52.94103;-73.93599634;VIII del Bio-Bio;Tucapel
+-24.07753673;-71.66921793;II de Antofagasta;Tocopilla
+-17.62297702;-73.80370682;XII de Magallanes y de la Antartica Chilena;Porvenir
+-46.43216631;-70.49138637;II de Antofagasta;Mejillones
+-49.06597315;-68.1586654;I de Tarapaca;Camina
+-51.14222733;-70.51192856;III de Atacama;Tierra Amarilla
+-32.25602205;-73.70938746;IV de Coquimbo;Rio Hurtado
+-54.76566051;-70.09450066;II de Antofagasta;Tocopilla
+-40.93401642;-70.91297411;II de Antofagasta;San Pedro de Atacama
+-51.34889643;-71.7560449;IV de Coquimbo;Andacollo
+-52.1926009;-70.02288822;II de Antofagasta;Ollague
+-24.32664962;-73.57833754;V de Valparaiso;Villa Alemana
+-45.99004483;-69.84882794;XV de Arica y Parinacota;Camarones
+-32.62408895;-69.7066942;III de Atacama;Tierra Amarilla
+-36.60213838;-69.67858338;II de Antofagasta;Calama
+-43.05898659;-68.61561527;I de Tarapaca;Alto Hospicio
+-16.75485413;-71.16848181;III de Atacama;Vallenar
+-53.75776763;-71.28707576;III de Atacama;Copiapo
+-38.5166006;-71.30822182;IV de Coquimbo;Salamanca
+-46.75479779;-71.15166944;II de Antofagasta;Ollague
+-39.91924724;-73.30630723;IV de Coquimbo;Canela
+-53.59601847;-74.48174488;V de Valparaiso;Puchuncavi
+-40.36010157;-72.97417772;V de Valparaiso;Casablanca
+-49.70049363;-68.28510012;I de Tarapaca;Camina
+-50.86661529;-70.95263054;II de Antofagasta;Ollague
+-50.66032276;-69.03531431;I de Tarapaca;Pozo Almonte
+-47.76020288;-70.15008743;II de Antofagasta;Maria Elena
+-29.27055799;-70.38725328;III de Atacama;Freirina
+-17.70796623;-73.70450394;Metropolitana de Santiago;Talagante
+-35.32999827;-72.00211361;II de Antofagasta;Maria Elena
+-37.71621836;-72.31495104;III de Atacama;Caldera
+-32.76764967;-71.47415533;II de Antofagasta;Sierra Gorda
+-39.56394284;-69.75223962;III de Atacama;Caldera
+-51.55577341;-68.68117893;I de Tarapaca;Pozo Almonte
+-51.95141748;-71.22207609;III de Atacama;Tierra Amarilla
+-31.77103906;-71.45606195;III de Atacama;Tierra Amarilla
+-29.9037532;-69.20477898;II de Antofagasta;San Pedro de Atacama
+-38.91178905;-71.73239195;VII del Maule;Curanilahue
+-19.09271584;-69.47178711;II de Antofagasta;Tocopilla
+-39.69256421;-73.14064804;IV de Coquimbo;Canela
+-54.73005883;-70.54483001;I de Tarapaca;Alto Hospicio
+-24.76562075;-73.72311695;V de Valparaiso;Villa Alemana
+-54.90481689;-72.99829869;IV de Coquimbo;Vicuna
+-48.59547852;-73.78895577;VIII del Bio-Bio;Alto Biobio
+-39.18346766;-67.82215525;XV de Arica y Parinacota;Arica
+-20.18310356;-69.91162467;II de Antofagasta;Calama
+-46.80526688;-71.17699473;II de Antofagasta;Mejillones
+-44.5237386;-73.67953291;VIII del Bio-Bio;San Rosendo
+-22.99538727;-69.27296898;I de Tarapaca;Iquique
+-33.39540661;-70.61147918;II de Antofagasta;Sierra Gorda
+-51.91507329;-70.82429759;III de Atacama;Freirina
+-46.65052586;-69.74814838;II de Antofagasta;Mejillones
+-32.01134156;-69.05264329;I de Tarapaca;Huara
+-43.29197132;-71.95914899;II de Antofagasta;Antofagasta
+-50.06681348;-71.288365;III de Atacama;Alto del Carmen
+-35.62259333;-71.60991232;II de Antofagasta;Maria Elena
+-49.83601833;-71.12592996;III de Atacama;Alto del Carmen
+-29.38267045;-70.83420453;III de Atacama;Freirina
+-39.21827739;-71.02138421;II de Antofagasta;San Pedro de Atacama
+-50.57327772;-68.91799663;I de Tarapaca;Pozo Almonte
+-30.27265127;-71.39812945;III de Atacama;Freirina
+-52.81861719;-74.37026443;V de Valparaiso;Puchuncavi
+-50.89461916;-70.77945522;I de Tarapaca;Colchane
+-47.32142188;-72.89968237;Metropolitana de Santiago;El Monte
+-45.92687329;-71.44643519;III de Atacama;Diego de Almagro
+-39.91479342;-70.71904433;III de Atacama;Caldera
+-30.72064609;-69.19189683;II de Antofagasta;Ollague
+-34.82049098;-73.76922988;XII de Magallanes y de la Antartica Chilena;Timaukel
+-29.09117012;-68.89030305;II de Antofagasta;San Pedro de Atacama
+-47.95224885;-72.625789;III de Atacama;Vallenar
+-42.40115957;-69.27629579;II de Antofagasta;San Pedro de Atacama
+-52.85135542;-71.64256207;IV de Coquimbo;Andacollo
+-35.86420182;-70.51754931;II de Antofagasta;Calama
+-47.48875104;-72.10622211;Metropolitana de Santiago;El Monte
+-18.50708785;-70.02931389;III de Atacama;Huasco
+-37.42139201;-74.82919835;XIV de Los Rios;Rio Bueno
+-34.02539502;-69.21071103;II de Antofagasta;Sierra Gorda
+-22.98723402;-73.14125365;XII de Magallanes y de la Antartica Chilena;Rio Verde
+-50.65226007;-72.76420235;XII de Magallanes y de la Antartica Chilena;Laguna Blanca
+-34.75875536;-71.91521087;IV de Coquimbo;Illapel
+-49.9530586;-73.42275068;Metropolitana de Santiago;San Pedro
+-42.85190241;-71.80551464;II de Antofagasta;Antofagasta
+-54.30040972;-71.1931064;III de Atacama;Freirina
+-46.7224442;-70.81052512;II de Antofagasta;Calama
+-24.61575569;-72.93952133;II de Antofagasta;Tocopilla
+-54.29723561;-70.04511056;II de Antofagasta;Tocopilla
+-53.1657583;-71.94698392;III de Atacama;Freirina
+-30.42590561;-68.63653997;II de Antofagasta;Taltal
+-36.6766771;-73.89200318;V de Valparaiso;Concon
+-45.48591239;-70.96372918;XV de Arica y Parinacota;Camarones
+-18.22174509;-69.20838488;I de Tarapaca;Pozo Almonte

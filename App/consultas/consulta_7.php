@@ -3,7 +3,7 @@
 <body>
 
   <?php
-  require("../config/conexion_2.php");
+  require("../config/conexion.php");
 
   $var = $_POST["ONG"];
   $query = "SELECT numero, proyecto, presupuesto, tipo, fecha FROM (SELECT * FROM movilizaciones WHERE movilizaciones.ong IN (SELECT nombre FROM ongs) ORDER BY ong, presupuesto DESC) AS todas WHERE ong LIKE '%$var%'";
