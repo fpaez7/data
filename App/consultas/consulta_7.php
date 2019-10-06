@@ -1,39 +1,30 @@
 <?php include('../templates/header.html');   ?>
 
 <body>
-<h2 align="center">Centrales Termoelectricas</h2>
 
-<?php
-  #Llama a conexión, crea el objeto PDO y obtiene la variable $db
+  <?php
+  require("../config/conexion_2.php");
 
-  require("../config/conexion.php");
-
-  $query = "SELECT proyectos.pid, nombre, generador, operativo
-  FROM proyectos, generadoras_electricas
-  WHERE proyectos.pid = generadoras_electricas.pid
-  AND generador='termoelectrica'";
-
+  $var = $_POST["ONG"];
+  $query = "SELECT numero, proyecto, presupuesto, tipo, fecha FROM (SELECT * FROM movilizaciones WHERE movilizaciones.ong IN (SELECT nombre FROM ongs) ORDER BY ong, presupuesto DESC) AS todas WHERE ong LIKE '%$var%'";
   $result = $db -> prepare($query);
   $result -> execute();
-  $vertederos = $result -> fetchAll();
+  $dataCollected = $result -> fetchAll();
   ?>
 
-  <table align="center">
+  <table>
     <tr>
-      <th>PID</th>
-      <th>Nombre</th>
-      <th>Tipo de Generacion</th>
-      <th>Operativo</th>
+      <th>Numero</th>
+      <th>Proyecto</th>
+      <th>Presupuesto</th>
+      <th>Tipo</th>
+      <th>Fecha</th>
     </tr>
-
-      <?php
-        foreach ($vertederos as $p) {
-          echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td>
-          <td>$p[3]</td><td>";
-      }
-      ?>
-
+  <?php
+  foreach ($dataCollected as $p) {
+    echo "<tr> <td>$p[0]</td> <td>$p[1]</td> <td>$p[2]</td> <td>$p[3]</td> <td>$p[4]</td> </tr>";
+  }
+  ?>
   </table>
-
 
 <?php include('../templates/footer.html'); ?>

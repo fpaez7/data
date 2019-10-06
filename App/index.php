@@ -52,11 +52,9 @@
   <br>
   <br>
   <br>
+  <a align="center"href="consultas/consulta_7.php">6. weas</a>
   <br>
   <br>
-
-  <a align="center" href="consultas/consulta_7.php">1. Centrales Termoelectricas</a>
-
   <br>
 </body>
 </html>
