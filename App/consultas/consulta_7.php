@@ -1,11 +1,11 @@
 <body>
 
   <?php
-  require("../config/conexion_2.php");
+  require("../config/conexion.php");
 
   $var = $_POST["tipo"];
   $query = "SELECT nombre, ONG, presupuesto, tipo, fecha FROM (SELECT * FROM proyectos WHERE nombre IN (SELECT nombre_proyecto FROM recursos INNER JOIN recursos_en_tramite ON recursos.numero = recursos_en_tramite.numero)) AS proyectos_validos, (SELECT * FROM movilizaciones INNER JOIN movilizaciones_marchas ON movilizaciones.numero = movilizaciones_marchas.numero WHERE CURRENT_DATE < fecha) AS mov_marchas WHERE proyectos_validos.nombre = mov_marchas.proyecto UNION SELECT nombre, ONG, presupuesto, tipo, fecha FROM (SELECT * FROM proyectos WHERE nombre IN (SELECT nombre_proyecto FROM recursos INNER JOIN recursos_en_tramite ON recursos.numero = recursos_en_tramite.numero)) AS proyectos_validos, (SELECT * FROM movilizaciones INNER JOIN movilizaciones_redes_sociales ON movilizaciones.numero = movilizaciones_redes_sociales.numero WHERE CURRENT_DATE < fecha + INTERVAL '1 month' * duracion) AS mov_redes WHERE proyectos_validos.nombre = mov_redes.proyecto ORDER BY nombre";
-  $result = $db -> prepare($query);
+  $result = $db_2 -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>

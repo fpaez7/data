@@ -5,10 +5,7 @@
   $query2 = "SELECT *
   FROM Recursos";
 
-
-
-
-  $result = $db2 -> prepare($query2);
+  $result = $db_2 -> prepare($query2);
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
