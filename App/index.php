@@ -1,5 +1,7 @@
-<?php include('templates/header.html');   ?>
-
+<?php 
+include('templates/header.html');  
+include("navbar.php"); 
+?>
 <body>
   <h1 align="center">Entrega 2</h1>
 
@@ -53,10 +55,6 @@
   <br>
   <br>
   <a align="center"href="consultas/consulta_7.php">6. weas</a>
-  <br>
-  <br>
-  <br>
-  <a align="center"href="consultas/consulta_8.php">6. Recurursos</a>
   <br>
   <br>
   <br>
