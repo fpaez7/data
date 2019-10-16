@@ -56,5 +56,9 @@
   <br>
   <br>
   <br>
+  <a align="center"href="consultas/consulta_8.php">6. Recurursos</a>
+  <br>
+  <br>
+  <br>
 </body>
 </html>
