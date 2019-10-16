@@ -3,15 +3,10 @@ session_start();
 require("config/conexion.php");
 $redireccion = "index.php";
 
-if($type == "anonimo")
-{
-    header("location:".$redireccion);
-}
-
 
 if(isset($_POST["login"]))
 {
-    if($type == "socio_login") {
+    if($_SESSION['tipo'] == "socio") {
         if (empty($_POST["nombre"]) || empty($_POST["apellido"]) || empty($_POST["clave"])) {
             $message = '<label>Los Socios requieren Nombre, Apellido y una Contraseña</label>';
         } else {
@@ -31,13 +26,13 @@ if(isset($_POST["login"]))
             }
         }
     }
-    else {
+    elseif($_SESSION['tipo'] == "ong") {
         if (empty($_POST["nombre"]) || empty($_POST["clave"])) {
             $message = '<label>Las ONGs requieren Nombre y una Contraseña</label>';
         } else {
             $nombre = "'".$_POST["nombre"]."'";
             $query = "SELECT * FROM ongs WHERE nombre = $nombre";
-            $statement = $db2->prepare($query);
+            $statement = $db_2->prepare($query);
             $statement->execute();
             $count = $statement->rowCount();
             if ($count > 0) {
@@ -65,7 +60,7 @@ if(isset($_POST["login"]))
     <form method="post">
         <p>Nombre</p>
         <input type="text" name="nombre" placeholder="Nombre">
-        <?php if($type == "socio_login")
+        <?php if($_SESSION['tipo'] == "socio")
         {
             echo '<p>Apellido</p>';
             echo '<input type="text" name="apellido" placeholder="Apellido">';
