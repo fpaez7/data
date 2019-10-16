@@ -8,7 +8,7 @@
 <body>
 <div class="login-box">
     <h1>Elige tipo de Login</h1>
-    <form method="post" action="login.php">
+    <form method="post" action="usertype.php">
         <input type="submit" class="btn" value="Login como ONG" name="ong">
         <input type="submit" class="btn" value="Login como Socio" name="socio">
         <input type="submit" class="btn" value="Login anónimo" name="anonimo">
@@ -16,23 +16,3 @@
 </div>
 </body>
 </html>
-
-<?php
-session_start();
-if($_POST['socio'])
-{
-    $$type = "socio_login";
-    header("location:login.php");
-}
-elseif($_POST['ong'])
-{
-    $$type = "ong_login";
-    header("location:login.php");
-}
-else
-{
-    $_SESSION['tipo'] = "anonimo";
-    $$type = "anonimo";
-    header("location:login.php");
-}
-?>
