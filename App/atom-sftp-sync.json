@@ -5,6 +5,6 @@
     "password": "gauchos39",
     "port": 22,
     "remotePath": "",
-    "uploadOnSave": false,
+    "uploadOnSave": true,
     "uploadConfigFile": false
 }
