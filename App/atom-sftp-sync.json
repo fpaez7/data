@@ -1,0 +1,10 @@
+{
+    "type": "sftp",
+    "host": "codd.ing.puc.cl/~grupo54/index.php",
+    "username": "grupo39",
+    "password": "gauchos39",
+    "port": 22,
+    "remotePath": "",
+    "uploadOnSave": false,
+    "uploadConfigFile": false
+}
