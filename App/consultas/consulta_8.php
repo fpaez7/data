@@ -1,10 +1,6 @@
 <body>
 
   <?php
-  require("../config/conexion_2.php");
-  $query = "SELECT *
-  FROM movilizaciones";
-
   require("../config/conexion.php");
   $query2 = "SELECT *
   FROM Recursos";
@@ -12,7 +8,7 @@
 
 
 
-  $result = $db -> prepare($query2);
+  $result = $db2 -> prepare($query2);
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
